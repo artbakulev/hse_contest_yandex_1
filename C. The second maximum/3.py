@@ -6,4 +6,5 @@ while current != 0:
         first, second = current, first
     elif current > second:
         second = current
+    current = int(input())
 print(second)
